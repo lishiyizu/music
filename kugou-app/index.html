@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">      
+    <title>kugou-app</title>
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_822983_nwv4fs1tam.css">
+    <style>
+      body{
+        margin:0;
+        padding:0;
+        height: 100%;
+      }
+        /* #app{
+          width:20rem;
+          height:100%;
+        } */
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+     <!-- built files will be auto injected -->
+    <script>
+      let width = document.documentElement.clientWidth || document.body.clientWidth
+      let htmlDom = document.getElementsByTagName('html')[0]
+      htmlDom.style.fontSize = width/20+'px'
+    </script>
+  </body>
+</html>
