@@ -20,7 +20,7 @@ proxyTable: {<br/>
  官方的解释是：Vuex 是一个专为 Vue.js 应用程序开发的状态管理模式。它采用集中式存储管理应用的所有组件的状态，并以相应的规则保证状态以一种可预测的方式发生变化。<br/>
 简单的来说就是一个状态管理器，将所需要用的数据全放在vuex里面，形成一个全局的api,在每个组件里都能直接的使用<br/>
 let store = new Vuex.Store({<br/><br/> 
- state:{ songUrl: '', <br/>
+ state:{    songUrl: '', <br/>
            imgUrl: 'http://m.kugou.com/v3/static/images/index/logo_kugou.png',<br/>
            songName: '', <br/>
            singerName: '小音乐',<br/>
